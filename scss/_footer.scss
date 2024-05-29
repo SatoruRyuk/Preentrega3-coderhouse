@@ -1,0 +1,36 @@
+/*Seccion de Entre pagina*/
+.copy-right{
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+.redes-sociales{
+    margin: 20px;
+    color: white;
+    text-align: center;
+    ul li a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.discord .bi{
+    color: blueviolet;
+}
+.twitch .bi{
+    color: blueviolet;
+}
+.twitter .bi{
+    color: rgb(41, 82, 214);
+}
+.banner{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #743ad5, #d53a9d);
+    width: auto;
+    height: 60px;
+    h2{
+        font-weight: bold;
+    }
+}
