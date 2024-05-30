@@ -144,6 +144,10 @@ li {
   text-align: justify;
 }
 
+.banner .populares {
+  font-size: 3rem;
+}
+
 /*Seccion de Entre pagina*/
 .copy-right {
   margin: 20px;
