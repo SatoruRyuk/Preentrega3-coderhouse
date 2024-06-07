@@ -7,7 +7,8 @@
 .redes-sociales{
     margin: 20px;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     ul li a {
         text-decoration: none;
         color: white;
@@ -31,6 +32,27 @@
     width: auto;
     height: 60px;
     h2{
+        font-weight: bold;
+    }
+}
+
+
+.banner-redes {
+    background-color: #2b2d32;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    .redes {
+        
+        color: white;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    ul li a{
+        padding: 10px;
+        color: white;
+        text-decoration: none;
         font-weight: bold;
     }
 }

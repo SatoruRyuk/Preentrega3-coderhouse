@@ -46,13 +46,6 @@ li {
   font-weight: bold;
   background-color: rgb(30, 30, 30);
 }
-
-/*Seccion de Navbar*/
-.navbar {
-  padding: 10px 20px;
-  font-weight: bold;
-  background-color: rgb(30, 30, 30);
-}
 .navbar a {
   color: white;
 }
@@ -77,6 +70,11 @@ li {
   width: 100%;
   height: 5px;
   background: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
 }
 
 /*Seccion de Cards*/
@@ -126,7 +124,7 @@ li {
   background-color: blueviolet;
 }
 
-/*Seccion de Descripcion*/
+/*Seccion Entre Pagina*/
 .descripcion {
   padding: 20px;
   color: white;
@@ -148,7 +146,7 @@ li {
   font-size: 3rem;
 }
 
-/*Seccion de Entre pagina*/
+/*Footer*/
 .copy-right {
   margin: 20px;
   text-align: center;
@@ -158,7 +156,8 @@ li {
 .redes-sociales {
   margin: 20px;
   color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .redes-sociales ul li a {
   text-decoration: none;
@@ -187,6 +186,25 @@ li {
   height: 60px;
 }
 .banner h2 {
+  font-weight: bold;
+}
+
+.banner-redes {
+  background-color: #2b2d32;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+.banner-redes .redes {
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.banner-redes ul li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -448,6 +466,66 @@ li {
   .container-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+.main-container {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container .login-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgb(45, 45, 45);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.main-container .login-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-container h2 {
+  padding: 10px 10px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+.main-container .form-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container .form-inputs {
+  flex: 1;
+  margin-right: 20px;
+}
+.main-container .input-group {
+  margin-bottom: 15px;
+}
+.main-container .input-group label {
+  margin-bottom: 5px;
+  color: white;
+}
+.main-container .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.main-container button {
+  padding: 10px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.main-container button:hover {
+  background-color: rgb(113, 57, 165);
 }
 
 /*# sourceMappingURL=style.css.map */
