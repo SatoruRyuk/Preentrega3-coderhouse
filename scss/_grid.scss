@@ -1,3 +1,15 @@
+
+@mixin botones ($bgcolorviolet, $letracl){
+    background-color: $bgcolorviolet;
+    color:$letracl;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
 .container-grid{  
     color: white;
     display: grid;
@@ -18,14 +30,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -42,14 +47,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -66,14 +64,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -90,14 +81,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -114,14 +98,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -138,14 +115,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -162,14 +132,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -186,14 +149,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
@@ -210,14 +166,7 @@
         display: flex;
         justify-content: center;
         .continuar-leyendo{
-        background-color: blueviolet;
-        color: #fff;
-        border: none;
-        border-radius: 25px;
-        padding: 10px 20px;
-        margin: 10px 10px;
-        text-transform: uppercase;
-        transition: background-color 0.2s;
+            @include botones($bgcolorviolet,$letracl )
         }
         .descripcion{
             text-align: center;
